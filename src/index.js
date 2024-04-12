@@ -3,7 +3,7 @@
 var saldoVitorias = calculoRankeada(200, 30);
 var seuNivel = 0;
 
-console.log("\nCalculando o partidas Ranqueadas!\n\n");
+console.log("\nCalculando o partidas Rankeadas!\n\n");
 
 function calculoRankeada(vitorias, derrotas) {
   let taxaDeVitorias = vitorias - derrotas;
